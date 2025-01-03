@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig>
   <Tracking>
+    <ImageTarget name="talking_heads" size="4.000000 3.000000" />
     <ImageTarget name="thierry" size="3.000000 2.072289" />
     <ImageTarget name="stones" size="0.150000 0.105000" />
     <ImageTarget name="chips" size="0.150000 0.105000" />
