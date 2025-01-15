@@ -1,0 +1,424 @@
+fileFormatVersion: 2
+guid: c7cf56b3d594ec0439308c60c1c4988e
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Boot_lockMat
+    second: {fileID: 2100000, guid: bdefe7e7f30cc61418e7af046735dfc2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Brake_light_leftMat
+    second: {fileID: 2100000, guid: 457b079bd9fcf454b976cdd528b70aec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Brake_light_rightMat
+    second: {fileID: 2100000, guid: ceb96530ad10d1f4a90458f1fd2384ea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bumper_frontMat
+    second: {fileID: 2100000, guid: 26bd1078d4b927b4c8713f05752e75a3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cassette_eject_buttonMat
+    second: {fileID: 2100000, guid: 1093ab8dd3bc6714f912231a679f66e1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Chassis_right1Mat
+    second: {fileID: 2100000, guid: c7f4dabeef33fd54fbddaa88d110ee08, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DashboardMat
+    second: {fileID: 2100000, guid: e693db53b7bb8d345a639894a0afc172, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Door_leftMat
+    second: {fileID: 2100000, guid: 8e5fd54dabd33e144904c5535d3fed48, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Door_rightMat
+    second: {fileID: 2100000, guid: ea85425bf22f80149a7133aa40692be9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Driver_passenger_windowMat
+    second: {fileID: 2100000, guid: 829267a79b46d42428475c44fb14fc28, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Driver_seatMat
+    second: {fileID: 2100000, guid: ad18a8d1a54c80a4081c73e832d70f63, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ExhaustMat
+    second: {fileID: 2100000, guid: 06c53e46f80b2d8468c6b54b7d43ae94, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Fine_tune_knobMat
+    second: {fileID: 2100000, guid: 45e6acc52e23c5c42b45ecd2a4261c78, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Front_passenger_windowMat
+    second: {fileID: 2100000, guid: 8935a6dbfd95b7b498f2e89b1ab2ce58, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GrillMat
+    second: {fileID: 2100000, guid: 0c945066312ec994c8dc2982a5a7e38b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Head_Light_leftMat
+    second: {fileID: 2100000, guid: b09e5a8ef7cfb164bab55d37f0268d69, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Head_Light_rightMat
+    second: {fileID: 2100000, guid: 3044babb9617c3b4cb9aba98c3ae22e6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Indicator_leftMat
+    second: {fileID: 2100000, guid: c0b99e1fcd5fce444ae3d203c81aea3a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Indicator_rightMat
+    second: {fileID: 2100000, guid: dc123adf11814f8428c073812a88d33f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Num_Plate_frontMat
+    second: {fileID: 2100000, guid: 75e91606247d2f849b33c14099ee8b6c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Num_Plate_rearMat
+    second: {fileID: 2100000, guid: 313e2cd50e8dc7049a83c9952ace0890, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: OilTemp_glassMat
+    second: {fileID: 2100000, guid: 955fcb99a21fc974d90503a3fc20e2ec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: OilTemp_needleMat
+    second: {fileID: 2100000, guid: 5ac5c99334a48004181f3ff9a529bf89, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Passenger_seatMat
+    second: {fileID: 2100000, guid: 096bfc2f781de5641bfbb4d402670ccf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Radio_glassMat
+    second: {fileID: 2100000, guid: fc4cf882e745f714cb6c95b475009e14, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Radio_needleMat
+    second: {fileID: 2100000, guid: de86be384df1f4f479ceb7af27bf3a6f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rear_bumperMat
+    second: {fileID: 2100000, guid: b020cd37c06983840a0ccb0cdb1d4038, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rear_driver_windowMat
+    second: {fileID: 2100000, guid: 5eac58dc99193c9439a0e69f4b5e9ce5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rear_indicator_leftMat
+    second: {fileID: 2100000, guid: 29306f8d6355bda46b058e9cb14fe48a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rear_indicator_rightMat
+    second: {fileID: 2100000, guid: 158d1d0244dde284bb6e25334546d0ff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rear_parcel_tray1Mat
+    second: {fileID: 2100000, guid: f026061674cb3da4aae663eafd6f5c8b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rear_passenger_windowMat
+    second: {fileID: 2100000, guid: 04badebf78b271f41bd88068712f60af, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rear_windshieldMat
+    second: {fileID: 2100000, guid: fb034ec03a4176848950d50855d821a0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Speedometer_glassMat
+    second: {fileID: 2100000, guid: 4c68ccc9c46351b43b584160cdd2c5b2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Speedometer_needleMat
+    second: {fileID: 2100000, guid: 0481c666345e9dd4299228d0c73803f1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Steering_wheelMat
+    second: {fileID: 2100000, guid: 46a140e04c03c5b45b4f2a9078f593b2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tune_knobMat
+    second: {fileID: 2100000, guid: 69f94dceb13406a42bb54def17a8a43a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Volume_knobMat
+    second: {fileID: 2100000, guid: 1e0349453c981ea48aaf1d81f74efe4f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wheel_1Mat
+    second: {fileID: 2100000, guid: fb7beddcec0d97d43a65cb7538cf53cb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wheel_2Mat
+    second: {fileID: 2100000, guid: 6da1badcdccee984398c4fa22a7d3b2b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wheel_3Mat
+    second: {fileID: 2100000, guid: 61a03cce89cc86142be2e5a3c7d025c4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wheel_4Mat
+    second: {fileID: 2100000, guid: 80feb0dbb9de2b94b9ad624c083faf7c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WindshieldMat
+    second: {fileID: 2100000, guid: 99542f4440bbdf54baab7f4a4205fdea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pCube24Mat
+    second: {fileID: 2100000, guid: b563094aa74d8074aa9b439a73405a1f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pCube25Mat
+    second: {fileID: 2100000, guid: 3a351182fee97054e9aefc0683fa94f6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pCube26Mat
+    second: {fileID: 2100000, guid: dec368eec6d3be84e9522863b6caaaa3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pCube27Mat
+    second: {fileID: 2100000, guid: fe04b5f1bce45164ba7fe27e062b1f40, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pCylinder10Mat
+    second: {fileID: 2100000, guid: 7d82c1323a2880147951bff97474c41d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pCylinder11Mat
+    second: {fileID: 2100000, guid: e416919f72ab8ea42ab330a27d652ecc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pCylinder12Mat
+    second: {fileID: 2100000, guid: 5348beac27e51ec48860b1e9bed5c76a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pCylinder13Mat
+    second: {fileID: 2100000, guid: 380af0207cb0c444693836580953c4c1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pCylinder14Mat
+    second: {fileID: 2100000, guid: a2562a553ad35224687673f494ddbbfd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pCylinder15Mat
+    second: {fileID: 2100000, guid: 2460bd247e15fad45989ada0c2064c98, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pCylinder16Mat
+    second: {fileID: 2100000, guid: f45ba7beb1040d84596c9c170ab1e955, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pCylinder17Mat
+    second: {fileID: 2100000, guid: 0a8c206b3bf844c4682c4f329a5478d8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pCylinder18Mat
+    second: {fileID: 2100000, guid: e936edd1180ba114e8e26243e1339e75, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pCylinder3Mat
+    second: {fileID: 2100000, guid: 9f7bd33d7d08be74f92bde20e7b3d2bc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pCylinder4Mat
+    second: {fileID: 2100000, guid: 57d5261fadfaa6d479f0a753e5a4eb71, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pCylinder5Mat
+    second: {fileID: 2100000, guid: 10c67db022a39c34494d82c4e2a36084, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pCylinder6Mat
+    second: {fileID: 2100000, guid: c3f08993148e89049940af6db58a03e4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pCylinder7Mat
+    second: {fileID: 2100000, guid: 8f839bcb683d7f74e9beee0e876d22ec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pCylinder8Mat
+    second: {fileID: 2100000, guid: e8982ddae45f9c046827fe80aa6e5557, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pCylinder9Mat
+    second: {fileID: 2100000, guid: 83bcff1c6d7d37f46bc42a2fc575f3dc, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
