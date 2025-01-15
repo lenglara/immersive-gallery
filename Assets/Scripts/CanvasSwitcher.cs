@@ -1,13 +1,33 @@
+using System;
 using UnityEngine;
 
 public class CanvasSwitcher : MonoBehaviour
 {
-    public Canvas canvas1; 
-    public Canvas canvas2;
-
-    public void SwitchToCanvas2() 
+    public GameObject startScreen; 
+    public GameObject menuScreen;
+    public GameObject videoScreen;
+    public void Start()
     {
-        canvas1.enabled = false; 
-        canvas2.enabled = true; 
+        DeActivateAll();
+        startScreen.SetActive(true);
+    }
+
+    public void DeActivateAll()
+    {
+        startScreen.SetActive(false);
+        menuScreen.SetActive(false);
+        videoScreen.SetActive(false);
+    }
+
+    public void SwitchToMenuScreen() 
+    {
+        DeActivateAll();
+        menuScreen.SetActive(true);
+    }
+
+    public void SwitchToVideoScreen() 
+    {
+        DeActivateAll();
+        videoScreen.SetActive(true);
     }
 }
