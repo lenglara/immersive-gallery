@@ -1,0 +1,642 @@
+fileFormatVersion: 2
+guid: 0a150aa76ad4f4a25a96fb7e7467bf97
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: extended_turn_phone_spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3189
+        width: 1889.8334
+        height: 1063
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e166a3b4abe2c4ca8b9f170f46baba14
+      internalID: -71371200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: extended_turn_phone_spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 1889
+        y: 3189
+        width: 1889.8334
+        height: 1063
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f4d7b8e2ccf74668b4bab0d5ebbe176
+      internalID: -1851030719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: extended_turn_phone_spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 3778
+        y: 3189
+        width: 1889.8334
+        height: 1063
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d82ca00cd51614d36a7912291bedd2b6
+      internalID: 1407321707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: extended_turn_phone_spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 5667
+        y: 3189
+        width: 1889.8334
+        height: 1063
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 937ed6d26ab484d728563c97ed6d389a
+      internalID: -1487758081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: extended_turn_phone_spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 7556
+        y: 3189
+        width: 1889.8334
+        height: 1063
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b41652c7ba5b492786cb79a6ddc5d7f
+      internalID: 1929858989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: extended_turn_phone_spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 9445
+        y: 3189
+        width: 1889.8334
+        height: 1063
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd582ea8528a64df693a2eff24eb9e19
+      internalID: -1523606826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: extended_turn_phone_spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2126
+        width: 1889.8334
+        height: 1063
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4455b6d256f24e4f8c80fd924f231b2
+      internalID: 1234150332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: extended_turn_phone_spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 1889
+        y: 2126
+        width: 1889.8334
+        height: 1063
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3115dd6cd651f4490aa645d99a5ddde0
+      internalID: -27020829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: extended_turn_phone_spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 3778
+        y: 2126
+        width: 1889.8334
+        height: 1063
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b2152dd997fa44c38ac4cb652847899
+      internalID: -1553977818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: extended_turn_phone_spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 5667
+        y: 2126
+        width: 1889.8334
+        height: 1063
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a3bd6eb477664c06be15c6c49260701
+      internalID: 819671683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: extended_turn_phone_spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 7556
+        y: 2126
+        width: 1889.8334
+        height: 1063
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf75c6daee8cd4a4d89ae31090d3ab5a
+      internalID: -255231934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: extended_turn_phone_spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 9445
+        y: 2126
+        width: 1889.8334
+        height: 1063
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c20d4c95766114a8d84791f55cbffd3e
+      internalID: -1475042641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: extended_turn_phone_spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1063
+        width: 1889.8334
+        height: 1063
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b204184f96af3456bb2c67cb18e4ea95
+      internalID: -1903705296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: extended_turn_phone_spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 1889
+        y: 1063
+        width: 1889.8334
+        height: 1063
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b95db1cadf3714dda8e8dc6ab7e106ec
+      internalID: 1411514763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: extended_turn_phone_spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 3778
+        y: 1063
+        width: 1889.8334
+        height: 1063
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23ecd109dfb87423da15d2d43ec6885c
+      internalID: -1328915699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: extended_turn_phone_spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 5667
+        y: 1063
+        width: 1889.8334
+        height: 1063
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16da8a6fc1b0046e8b02016ca8b3a6be
+      internalID: 487636683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: extended_turn_phone_spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 7556
+        y: 1063
+        width: 1889.8334
+        height: 1063
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2d828a49f5d24d6087c39fcc9c483ba
+      internalID: -894269386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: extended_turn_phone_spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 9445
+        y: 1063
+        width: 1889.8334
+        height: 1063
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 042f40524f08b44a2b60869a479ebd00
+      internalID: -973045782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: extended_turn_phone_spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1889.8334
+        height: 1063
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cec37ab99550425499ef61e304034b3
+      internalID: -41981131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: extended_turn_phone_spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 1889
+        y: 0
+        width: 1889.8334
+        height: 1063
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b00532d78d2b4fbba715e1573ac1a3b
+      internalID: 351827351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: extended_turn_phone_spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 3778
+        y: 0
+        width: 1889.8334
+        height: 1063
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d8a1f3952d5e41cbbbacb084f678540
+      internalID: -2478678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: extended_turn_phone_spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 5667
+        y: 0
+        width: 1889.8334
+        height: 1063
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d4f5e5931bce44d887460c1224745f4
+      internalID: -1263146354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: extended_turn_phone_spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 7556
+        y: 0
+        width: 1889.8334
+        height: 1063
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a17e4bf88db974055a290a99041820f1
+      internalID: 986402747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: extended_turn_phone_spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 9445
+        y: 0
+        width: 1889.8334
+        height: 1063
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ef85ffc1d13245adbaac3aecb531e6a
+      internalID: 103134256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 021edafee092341d88f0aede2f67d9c3
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      extended_turn_phone_spritesheet_0: -71371200
+      extended_turn_phone_spritesheet_1: -1851030719
+      extended_turn_phone_spritesheet_10: -255231934
+      extended_turn_phone_spritesheet_11: -1475042641
+      extended_turn_phone_spritesheet_12: -1903705296
+      extended_turn_phone_spritesheet_13: 1411514763
+      extended_turn_phone_spritesheet_14: -1328915699
+      extended_turn_phone_spritesheet_15: 487636683
+      extended_turn_phone_spritesheet_16: -894269386
+      extended_turn_phone_spritesheet_17: -973045782
+      extended_turn_phone_spritesheet_18: -41981131
+      extended_turn_phone_spritesheet_19: 351827351
+      extended_turn_phone_spritesheet_2: 1407321707
+      extended_turn_phone_spritesheet_20: -2478678
+      extended_turn_phone_spritesheet_21: -1263146354
+      extended_turn_phone_spritesheet_22: 986402747
+      extended_turn_phone_spritesheet_23: 103134256
+      extended_turn_phone_spritesheet_3: -1487758081
+      extended_turn_phone_spritesheet_4: 1929858989
+      extended_turn_phone_spritesheet_5: -1523606826
+      extended_turn_phone_spritesheet_6: 1234150332
+      extended_turn_phone_spritesheet_7: -27020829
+      extended_turn_phone_spritesheet_8: -1553977818
+      extended_turn_phone_spritesheet_9: 819671683
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
