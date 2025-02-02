@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class RightHeadAnimator : MonoBehaviour
 {
-    [SerializeField] public Animator rightHeadAnimator;
+    [SerializeField] private Animator rightHeadAnimator;
 
     private bool _talkingRight;
     
@@ -16,10 +16,9 @@ public class RightHeadAnimator : MonoBehaviour
     }
 
     // Toggle zwischen Sprechend und Idle
-    public void ToggleTalking()
+    public void ToggleTalking(bool talking)
     {
-        _talkingRight = !_talkingRight;
-        Debug.Log("Talking state changed: " + _talkingRight);
+        _talkingRight = talking;
         UpdateAnimation();
     }
     
