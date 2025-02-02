@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 1386688316}
   - component: {fileID: 1386688315}
   m_Layer: 0
-  m_Name: right_head_spritesheet_0
+  m_Name: RightHeadAnimator
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -679,7 +679,7 @@ GameObject:
   - component: {fileID: 2000125764}
   - component: {fileID: 2000125763}
   m_Layer: 0
-  m_Name: left_head_spritesheet 1_0
+  m_Name: LeftHeadAnimator
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
