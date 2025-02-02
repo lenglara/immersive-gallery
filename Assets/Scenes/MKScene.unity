@@ -9633,7 +9633,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1329356500}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2130497561}
+        m_TargetAssemblyTypeName: SceneChanger, Assembly-CSharp
+        m_MethodName: LoadTalkingHeadsScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1329356500
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17485,6 +17497,7 @@ GameObject:
   - component: {fileID: 2130497558}
   - component: {fileID: 2130497560}
   - component: {fileID: 2130497559}
+  - component: {fileID: 2130497561}
   m_Layer: 5
   m_Name: 'BorderHeads '
   m_TagString: Untagged
@@ -17551,6 +17564,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2130497557}
   m_CullTransparentMesh: 1
+--- !u!114 &2130497561
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2130497557}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2757ee06c9faa4eec9de47ac5a70f8e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!43 &2132705335
 Mesh:
   m_ObjectHideFlags: 0
