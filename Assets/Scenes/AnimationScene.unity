@@ -133,6 +133,7 @@ GameObject:
   - component: {fileID: 1386688314}
   - component: {fileID: 1386688316}
   - component: {fileID: 1386688315}
+  - component: {fileID: 1386688317}
   m_Layer: 0
   m_Name: RightHeadAnimator
   m_TagString: Untagged
@@ -228,6 +229,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1386688317
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1386688313}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26a3e46787ea24a85ab46bb5b0bb3a00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rightHeadAnimator: {fileID: 1386688315}
 --- !u!1 &1481913437
 GameObject:
   m_ObjectHideFlags: 0
@@ -642,7 +656,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1963888074}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 26a3e46787ea24a85ab46bb5b0bb3a00, type: 3}
   m_Name: 

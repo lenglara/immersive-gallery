@@ -31,32 +31,25 @@ public class AnimationController : MonoBehaviour
 
     void Update()
     {
-        // Beispiel: Animation starten, wenn die Leertaste gedrückt wird
-        if (Input.GetKeyDown(KeyCode.S))
-        {
-            //rightHeadAnimator.SetBool("Talking", true);
-
-            _talkingRight = false;
-        }
-
-        // Beispiel: Animation stoppen, wenn die Taste "S" gedrückt wird
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            // rightHeadAnimator.SetBool("Talking", false);
-
-            _talkingRight = true;
+            _talkingRight = !_talkingRight;  // Toggle zwischen Sprechend und Idle
+            Debug.Log("Talking state changed: " + _talkingRight);
+            UpdateAnimation();
         }
-        
-        var state = GetState();
-        
-        if (state == _currentState) return;
-        rightHeadAnimator.CrossFade(state, 0, 0);
-        _currentState = state;
     }
     
-    private int GetState() {
-        if (_talkingRight) return TalkingR;
-        return IdleR;
+    private void UpdateAnimation()
+    {
+        if (_talkingRight)
+        {
+            // rightHeadAnimator.CrossFade(TalkingR, 0.1f);
+            rightHeadAnimator.Play(TalkingR);
+        }
+        else
+        {
+            rightHeadAnimator.CrossFade(IdleR, 0.1f);
+        }
     }
 }
 
