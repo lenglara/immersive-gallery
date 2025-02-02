@@ -6,7 +6,6 @@ using Vuforia;
 public class DialogueTrigger : MonoBehaviour
 {
     public Dialogue dialogue;
-    private bool isTracking = false;
     
     private void Start()
     {
