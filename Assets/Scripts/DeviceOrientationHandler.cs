@@ -19,8 +19,6 @@ public class DeviceOrientationHandler : MonoBehaviour
         if (Input.deviceOrientation == DeviceOrientation.LandscapeLeft ||
             Input.deviceOrientation == DeviceOrientation.LandscapeRight)
         {
-            Debug.Log("Phone successfully turned");
-
             phoneTurned = true;
             canvasManager.TurnOnImageTarget();
         }

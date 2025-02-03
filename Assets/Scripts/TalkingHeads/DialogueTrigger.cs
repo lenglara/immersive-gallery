@@ -1,11 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using Vuforia;
 
 public class DialogueTrigger : MonoBehaviour
 {
     public Dialogue dialogue;
+
+    [SerializeField] private GameObject scanCanvas;
     
     private void Start()
     {
@@ -20,6 +23,8 @@ public class DialogueTrigger : MonoBehaviour
 
     public void OnTrackingFound()
     {
+        scanCanvas.GameObject().SetActive(false);
+        
         FindObjectOfType<DialogueManager>().StartDialogue(dialogue);
         if (FindObjectOfType<DialogueManager>()) { Debug.Log("dialogue manager found");}
         
