@@ -1400,7 +1400,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &912132174
+--- !u!1 &864006568
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1408,24 +1408,24 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 912132178}
-  - component: {fileID: 912132177}
-  - component: {fileID: 912132176}
-  - component: {fileID: 912132175}
+  - component: {fileID: 864006572}
+  - component: {fileID: 864006571}
+  - component: {fileID: 864006570}
+  - component: {fileID: 864006569}
   m_Layer: 5
-  m_Name: AlwaysOnCanvas
+  m_Name: ButtonCanvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &912132175
+  m_IsActive: 0
+--- !u!114 &864006569
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 912132174}
+  m_GameObject: {fileID: 864006568}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
@@ -1436,13 +1436,13 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
---- !u!114 &912132176
+--- !u!114 &864006570
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 912132174}
+  m_GameObject: {fileID: 864006568}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
@@ -1459,13 +1459,13 @@ MonoBehaviour:
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
   m_PresetInfoIsWorld: 0
---- !u!223 &912132177
+--- !u!223 &864006571
 Canvas:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 912132174}
+  m_GameObject: {fileID: 864006568}
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 1
@@ -1477,18 +1477,18 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_VertexColorAlwaysGammaSpace: 0
-  m_AdditionalShaderChannelsFlag: 25
+  m_AdditionalShaderChannelsFlag: 0
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
---- !u!224 &912132178
+--- !u!224 &864006572
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 912132174}
+  m_GameObject: {fileID: 864006568}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
@@ -2233,6 +2233,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 328e612e52d41467eba8ef13c58b838f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  buttonCanvas: {fileID: 864006568}
   turnPhoneCanvas: {fileID: 5525528039900405322}
   scanCanvas: {fileID: 1347823471}
   imageTarget: {fileID: 1963888074}
@@ -2277,17 +2278,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1820350957}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0.0021988926}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 93813513}
-  m_Father: {fileID: 912132178}
+  m_Father: {fileID: 864006572}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 100, y: -100}
+  m_AnchoredPosition: {x: 99.99985, y: -99.999146}
   m_SizeDelta: {x: 250, y: 250}
   m_Pivot: {x: -0.00000011920929, y: 1.0000004}
 --- !u!114 &1820350959
@@ -3408,7 +3409,7 @@ SceneRoots:
   m_Roots:
   - {fileID: 1670594627}
   - {fileID: 751388219387642405}
-  - {fileID: 912132178}
+  - {fileID: 864006572}
   - {fileID: 2503013063550866416}
   - {fileID: 1347823475}
   - {fileID: 1963888078}
