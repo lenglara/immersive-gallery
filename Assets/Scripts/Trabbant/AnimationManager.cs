@@ -13,7 +13,7 @@ public class AnimationManager : MonoBehaviour
     public AudioClip introClip;
     public AudioSource wallRumble;
     public AudioSource carAudioSource;
-    public float waitTimeReduce;
+    public AudioSource outroAudioSource;
     
     void Start()
     {
@@ -91,5 +91,11 @@ public class AnimationManager : MonoBehaviour
     {
         carAudioSource.Play();
         carAnimator.SetTrigger("StartAnimation");
+        StartCoroutine(StartPlayingOutroTextCoroutine());
+    }
+    private IEnumerator StartPlayingOutroTextCoroutine()
+    {
+        yield return new WaitForSeconds(6f);
+        outroAudioSource.Play();
     }
 }
