@@ -9,6 +9,7 @@ public class BreakWallContact : MonoBehaviour
     public float destroyDelay = 5f;
     public float maxVerticalVelocity = 5f; // Neue Variable zur Begrenzung der vertikalen Geschwindigkeit
     private bool isBroken = false;
+    public AudioSource crashSound;
 
     private void OnCollisionStay(Collision collision)
     {
@@ -26,14 +27,14 @@ public class BreakWallContact : MonoBehaviour
     void BreakWall(Vector3 collisionPoint)
     {
         isBroken = true;
-
+        crashSound.Play();
         foreach (Transform child in transform)
         {
             Rigidbody rb = child.GetComponent<Rigidbody>();
             if (rb != null)
             {
                 rb.isKinematic = false;
-                rb.useGravity = true;
+                rb.useGravity = false;
 
                 // Richtung vom Kollisionspunkt zum Bruchteil
                 Vector3 forceDirection = (child.position - collisionPoint).normalized;
