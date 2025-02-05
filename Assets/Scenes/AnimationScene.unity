@@ -758,6 +758,7 @@ MonoBehaviour:
   rightHeadAnimator: {fileID: 1386688317}
   dialogueBoxLeft: {fileID: 418273972}
   dialogueBoxRight: {fileID: 247786801}
+  audioSource: {fileID: 1814634725}
   dialogueTextLeft: {fileID: 1157570476}
   dialogueTextRight: {fileID: 580080689}
 --- !u!4 &230904047
@@ -1289,35 +1290,48 @@ MonoBehaviour:
     dialogueEntries:
     - name: LeftHead
       sentence: Heeeey...
+      audioClip: {fileID: 8300000, guid: d433a7e957ec04895af4d8bc42fe992d, type: 3}
     - name: RightHead
       sentence: Hallo!
+      audioClip: {fileID: 8300000, guid: 4cd51f8feea2949e09fdd0fbe0b1685b, type: 3}
     - name: LeftHead
       sentence: Wusstest du eigentlich, dass du visueller Protest bist?
+      audioClip: {fileID: 8300000, guid: 6079d3b08b1a44f97b6c43f7d0d9da69, type: 3}
     - name: RightHead
       sentence: Was soll das denn bitte sein?
+      audioClip: {fileID: 8300000, guid: ff514e898dcc146e8920faa11dc4e3dd, type: 3}
     - name: LeftHead
       sentence: Na, gegen die Mauer! Also damals, 1984, da hat Thierry Noir angefangen
         solche wie uns an die Mauer zu malen.
+      audioClip: {fileID: 8300000, guid: 441b2f4e9f0e24ec9b9938d00a9aae7d, type: 3}
     - name: LeftHead
       sentence: "Er hat jeden Tag an die Mauer gemalt, um seinen Widerstand auszudr\xFCcken"
+      audioClip: {fileID: 8300000, guid: 3387d958ce9124abf92f7e06a4db3718, type: 3}
     - name: LeftHead
       sentence: ' - solange, bis die Mauer endlich verschwindet.'
+      audioClip: {fileID: 0}
     - name: RightHead
       sentence: Besonders erfolgreich war er damit nicht, oder? Hier steht doch immernoch
         Mauer!
+      audioClip: {fileID: 8300000, guid: d3dd242da6a9d4009ac8b089adacefa1, type: 3}
     - name: LeftHead
       sentence: Dummerchen, die Mauer ist 1989 gefallen! Wir stehen hier heute noch,
         um an ihre Geschichte zu erinnern!
+      audioClip: {fileID: 8300000, guid: 9bdb511cf5a8c43a587e485f69e48819, type: 3}
     - name: LeftHead
       sentence: "Der Franzose Thierry Noir war der erste, der damals grossflaechig
         die Mauer bemalt hat. F\xFCr die Deutschen war das ein Tabu."
+      audioClip: {fileID: 8300000, guid: 4aa8eee80d8a64149889bc47709f2534, type: 3}
     - name: LeftHead
       sentence: Bis dahin war die Berliner Mauer vor allen Dingen eine todbringende
         Maschine, die in Massen Menschenleben verschluckte.
+      audioClip: {fileID: 8300000, guid: ee555fc9c403045dc92ef9e15e5d9137, type: 3}
     - name: RightHead
       sentence: Also, wenn das so ist... dann bin ich ein Symbol.
+      audioClip: {fileID: 8300000, guid: d96c41b51b3bb44c5af7e335d802b575, type: 3}
     - name: RightHead
       sentence: "Ein Symbol f\xFCr die transformative Kraft von Kunst."
+      audioClip: {fileID: 8300000, guid: 0ca26dbd9a4f0426582355ee2ac9be69, type: 3}
   scanCanvas: {fileID: 1347823471}
 --- !u!1 &660871569
 GameObject:
@@ -2253,6 +2267,134 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1814634723
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1814634724}
+  - component: {fileID: 1814634725}
+  m_Layer: 0
+  m_Name: Audio Source
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1814634724
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1814634723}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1963888078}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &1814634725
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1814634723}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1820350957
 GameObject:
   m_ObjectHideFlags: 0
@@ -2591,6 +2733,7 @@ Transform:
   - {fileID: 2000125762}
   - {fileID: 1386688314}
   - {fileID: 537031877}
+  - {fileID: 1814634724}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1963888079

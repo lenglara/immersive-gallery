@@ -14,10 +14,12 @@ public class DialogueManager : MonoBehaviour
     [SerializeField] private GameObject dialogueBoxLeft;
     [SerializeField] private GameObject dialogueBoxRight;
 
+    [SerializeField] private AudioSource audioSource;
+
     public TextMeshProUGUI dialogueTextLeft;
     public TextMeshProUGUI dialogueTextRight;
 
-    private Queue<(string name, string sentence)> sentences;
+    private Queue<(string name, string sentence, AudioClip clip)> sentences;
 
     private void Start()
     {
@@ -29,11 +31,13 @@ public class DialogueManager : MonoBehaviour
 
     public void StartDialogue(Dialogue dialogue)
     {
-        sentences = new Queue<(string name, string sentence)>();
+        sentences = new Queue<(string name, string sentence, AudioClip clip)>();
+
         foreach (DialogueEntry entry in dialogue.dialogueEntries)
         {
-            sentences.Enqueue((entry.name, entry.sentence));
+            sentences.Enqueue((entry.name, entry.sentence, entry.audioClip));
         }
+
 
         DisplayNextSentence();
     }
@@ -47,6 +51,12 @@ public class DialogueManager : MonoBehaviour
         }
 
         var entry = sentences.Dequeue();
+        
+        if (entry.clip != null)
+        {
+            audioSource.PlayOneShot(entry.clip);
+        }
+        
         if (entry.name == "LeftHead")
         {
             Debug.Log("LeftHeads turn to talk");

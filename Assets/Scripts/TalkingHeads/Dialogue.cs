@@ -9,6 +9,8 @@ public class DialogueEntry
     
     [TextArea(2, 10)]
     public string sentence;
+
+    public AudioClip audioClip;
 }
 
 [System.Serializable]
