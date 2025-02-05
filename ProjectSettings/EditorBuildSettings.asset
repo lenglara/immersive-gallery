@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/AnimationScene.unity
     guid: a85c4d4372e0642dc84e417a44210000
+  - enabled: 1
+    path: Assets/Scenes/TrabbiScene.unity
+    guid: 29f2cd7124ac4b04fa7d99f1d6d69af7
   m_configObjects: {}

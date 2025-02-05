@@ -14,4 +14,9 @@ public class SceneChanger : MonoBehaviour
     {
         SceneManager.LoadScene("MKScene");
     }
+
+    public void LoadTrabbiScene()
+    {
+        SceneManager.LoadScene("TrabbiScene");
+    }
 }
