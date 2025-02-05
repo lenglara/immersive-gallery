@@ -1713,8 +1713,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 19.9632, y: -67.8753}
+  m_SizeDelta: {x: 1014.1372, y: 742.6357}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1030059866
 MonoBehaviour:
@@ -2736,7 +2736,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Scanne die Berliner Mauer \nund erlebe,wie Kunst \nzum Leben erwacht"
+  m_text: "Scanne die Berliner Mauer \nund erlebe, wie Kunst \nzum Leben erwacht"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
   m_sharedMaterial: {fileID: 2140032, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
@@ -3268,7 +3268,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &2080876568
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3471,7 +3471,7 @@ SpriteRenderer:
   m_Size: {x: 18.898335, y: 10.630312}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &1125042443326019673

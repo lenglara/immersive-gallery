@@ -224,8 +224,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 180, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: -0.014999986}
+  m_SizeDelta: {x: 0, y: -0.0298}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &53764209
 MonoBehaviour:
@@ -281,8 +281,8 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 1
-  m_HorizontalAlignment: 2
-  m_VerticalAlignment: 512
+  m_HorizontalAlignment: 4
+  m_VerticalAlignment: 1024
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -360,8 +360,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0.688, y: -0.62}
-  m_SizeDelta: {x: 0.5612, y: 0.2089}
+  m_AnchoredPosition: {x: 1.394, y: -0.9956}
+  m_SizeDelta: {x: 1.9731, y: 0.9602}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &83238564
 MonoBehaviour:
@@ -426,7 +426,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 83238562}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
@@ -617,7 +617,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 161168792}
   m_LocalRotation: {x: 1, y: 0, z: 0, w: 0}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -625,8 +625,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 180, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -0.0031999946, y: -0.007400006}
+  m_SizeDelta: {x: -0.0064, y: -0.0149}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &161168794
 MonoBehaviour:
@@ -682,8 +682,8 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 1
-  m_HorizontalAlignment: 2
-  m_VerticalAlignment: 512
+  m_HorizontalAlignment: 4
+  m_VerticalAlignment: 1024
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -1299,8 +1299,9 @@ MonoBehaviour:
       sentence: Na, gegen die Mauer! Also damals, 1984, da hat Thierry Noir angefangen
         solche wie uns an die Mauer zu malen.
     - name: LeftHead
-      sentence: "Er hat jeden Tag an die Mauer gemalt, um seinen Widerstand auszudr\xFCcken
-        - solange, bis die Mauer endlich verschwindet."
+      sentence: "Er hat jeden Tag an die Mauer gemalt, um seinen Widerstand auszudr\xFCcken"
+    - name: LeftHead
+      sentence: ' - solange, bis die Mauer endlich verschwindet.'
     - name: RightHead
       sentence: Besonders erfolgreich war er damit nicht, oder? Hier steht doch immernoch
         Mauer!
@@ -1308,7 +1309,7 @@ MonoBehaviour:
       sentence: Dummerchen, die Mauer ist 1989 gefallen! Wir stehen hier heute noch,
         um an ihre Geschichte zu erinnern!
     - name: LeftHead
-      sentence: "Der Franzose Thierry Noir war der erste, der damals gro\xDFfl\xE4chig
+      sentence: "Der Franzose Thierry Noir war der erste, der damals grossflaechig
         die Mauer bemalt hat. F\xFCr die Deutschen war das ein Tabu."
     - name: LeftHead
       sentence: Bis dahin war die Berliner Mauer vor allen Dingen eine todbringende
@@ -1929,7 +1930,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1539688720}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1938,8 +1939,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 2.04, y: -0.61}
-  m_SizeDelta: {x: 0.5612, y: 0.20889997}
+  m_AnchoredPosition: {x: 1.3636, y: -0.9841}
+  m_SizeDelta: {x: 1.914, y: 0.9571}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1539688722
 MonoBehaviour:
@@ -2004,7 +2005,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1539688720}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
